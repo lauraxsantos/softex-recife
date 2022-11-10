@@ -5,6 +5,9 @@ var result;
 
 if (op === '/') {
   result = parseInt(num1) / parseInt(num2);
+  if(parseInt(num1) % parseInt(num2) !== 0){
+    console.log(parseInt(num1) % parseInt(num2))
+  }
 } else if (op === '+') {
   result = parseInt(num1) + parseInt(num2);
 } else if (op === '-') {
