@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Name from './components/name';
 function App() {
   return (
     <div className="App">
-      <h1>Ana Laura</h1>
+      <Name/>
     </div>
   );
 }
